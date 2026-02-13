@@ -1,0 +1,53 @@
+export const players = [
+  {
+    id: 'P001',
+    username: '海王釣手',
+    nickname: '金鯊獵人',
+    vipLevel: 5,
+    platform: 'HG',
+    currency: 'CNY',
+    cashBalance: 15000.00,
+    bonusBalance: 3500.00,
+    lockedBonusBalance: 800.00,
+    totalDeposit: 50000.00,
+    totalWithdraw: 20000.00,
+    registerDate: '2025-06-15',
+    lastLoginDate: '2026-02-12',
+    avatar: '🎣',
+    status: 'ACTIVE'
+  },
+  {
+    id: 'P002',
+    username: '深海探險家',
+    nickname: '章魚哥',
+    vipLevel: 3,
+    platform: 'HG',
+    currency: 'CNY',
+    cashBalance: 5200.00,
+    bonusBalance: 1200.00,
+    lockedBonusBalance: 300.00,
+    totalDeposit: 20000.00,
+    totalWithdraw: 8000.00,
+    registerDate: '2025-09-20',
+    lastLoginDate: '2026-02-11',
+    avatar: '🐙',
+    status: 'ACTIVE'
+  },
+  {
+    id: 'P003',
+    username: '新手漁夫',
+    nickname: '小魚仔',
+    vipLevel: 1,
+    platform: 'AG',
+    currency: 'THB',
+    cashBalance: 800.00,
+    bonusBalance: 500.00,
+    lockedBonusBalance: 0,
+    totalDeposit: 3000.00,
+    totalWithdraw: 500.00,
+    registerDate: '2026-01-10',
+    lastLoginDate: '2026-02-12',
+    avatar: '🐟',
+    status: 'ACTIVE'
+  }
+]
